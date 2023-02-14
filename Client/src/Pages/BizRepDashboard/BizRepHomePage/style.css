@@ -1,0 +1,14 @@
+.delivs-btn {
+  height: 50px !important;
+  width: 250px !important;
+  font-size: large !important;
+  font-weight: bold !important;
+}
+.delivs-container {
+  top: 0;
+  position: absolute;
+  right: 0;
+}
+.biz-campaigns {
+  margin-top: 30px;
+}

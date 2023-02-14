@@ -1,0 +1,22 @@
+.loading-container {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.spinner {
+  margin: auto;
+  vertical-align: middle;
+  align-items: center;
+  height: 100%;
+}
+.loading {
+  text-align: center;
+  font-size: 2rem;
+  font-style: oblique;
+  font-weight: 400;
+  color: #36d7b7;
+}

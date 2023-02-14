@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "PromotIt.MicroService": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7222",
+      "launchBrowser": false
+    }
+  }
+}

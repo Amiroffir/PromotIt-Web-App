@@ -1,0 +1,61 @@
+/* Modal window css */
+.modal {
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+.close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  outline: none;
+}
+.close:hover {
+  color: #fff;
+  background: #000;
+}
+.prd-container {
+  padding-bottom: 8px;
+  overflow-x: hidden;
+}
+.keep-product-btn {
+  background-color: #c0392b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.donate-back-btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

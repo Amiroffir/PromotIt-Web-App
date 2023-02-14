@@ -1,0 +1,42 @@
+.table {
+  text-align: center;
+}
+.user-details {
+  margin-top: 320px !important;
+  background-color: #fff !important;
+  height: fit-content !important;
+}
+.user-HL {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.filter-table {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+.dropdown-arr {
+  cursor: pointer;
+  color: #ccc;
+}
+.dropdown-arr:hover {
+  color: #000;
+}
+.next-page-btn {
+  cursor: pointer;
+  position: relative;
+  right: calc(100vw - 105vw);
+}
+.back-page-btn {
+  cursor: pointer;
+  position: relative;
+  left: calc(100vw - 105vw);
+}
+.admin-HLS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

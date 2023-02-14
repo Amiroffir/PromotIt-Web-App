@@ -1,0 +1,27 @@
+.report-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  gap: 15px;
+}
+.report-btn-container .btn {
+  width: 300px;
+  height: 50px;
+  border-radius: 0;
+}
+.report-btn {
+  background-color: #f7b681;
+  color: black;
+  border: none;
+  border-radius: 10px !important;
+  transition: background-color 350ms ease 0s, color 350ms ease 0s,
+    box-shadow 250ms ease 0s, opacity 250ms ease 0s;
+}
+.report-btn:hover {
+  background-color: #f7b681;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 5px 0px,
+    rgba(0, 0, 0, 0.12) 0px 3px 14px 3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px;
+}

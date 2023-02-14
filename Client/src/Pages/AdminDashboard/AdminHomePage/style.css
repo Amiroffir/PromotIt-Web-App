@@ -1,0 +1,23 @@
+.admin-homepage-container {
+  width: calc(100% - 150px);
+  height: 100%;
+  /* background-color: #f3f4f7; */
+  margin-left: 150px;
+}
+.reports {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  align-items: center;
+}
+.runningCampaigns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+}

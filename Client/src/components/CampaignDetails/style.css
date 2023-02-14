@@ -1,0 +1,29 @@
+.details-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  padding: 0 90px;
+  gap: 80px;
+}
+.campaign-img {
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.details-container__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.details-container__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  height: 100%;
+  flex-wrap: wrap;
+}

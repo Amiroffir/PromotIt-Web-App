@@ -1,0 +1,14 @@
+.wallet-div {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.refresh-btn {
+  border: 1px solid #29353c;
+  border-radius: 10px;
+  padding: 0 0.3rem 0 0.3rem;
+  background-color: #f3f4f7;
+  width: 100% !important;
+}

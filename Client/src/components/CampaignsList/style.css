@@ -1,0 +1,49 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.card {
+  width: 290px;
+  font-family: "Rubik", sans-serif !important;
+  max-height: 385px;
+  min-height: 385px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 5px 0px;
+  transition: box-shadow 200ms ease-in-out 0s;
+}
+.card-title {
+  font-weight: 800 !important;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 5px 0px,
+    rgba(0, 0, 0, 0.12) 0px 3px 14px 3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px;
+}
+
+.ops-btn {
+  bottom: 10px;
+  position: absolute;
+  left: calc(230px / 4 - 23px);
+  /* left: 0; */
+  background-color: #ffd5b4;
+  color: black;
+  border: none;
+  width: 70%;
+  transition: background-color 350ms ease 0s, color 350ms ease 0s,
+    box-shadow 250ms ease 0s, opacity 250ms ease 0s;
+}
+.ops-btn:hover {
+  background-color: #ff9e5b;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 5px 0px,
+    rgba(0, 0, 0, 0.12) 0px 3px 14px 3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px;
+  color: black;
+}
+.web-link {
+  text-decoration: none;
+  color: black;
+}

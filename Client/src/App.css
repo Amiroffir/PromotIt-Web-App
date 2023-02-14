@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+#root,
+html,
+body {
+  height: 100% !important;
+  width: 100%;
+  background-color: #f3f4f7 !important;
+}
+.App {
+  display: flex !important;
+  flex-direction: row;
+  height: 100%;
+}
