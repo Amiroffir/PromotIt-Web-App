@@ -10,7 +10,7 @@ namespace PromotIt.Entities
     {
         // singelton 
         private static readonly MainManager _instance = new MainManager();
-        private MainManager() : base()
+        private MainManager()
         {
 
             Init();         
