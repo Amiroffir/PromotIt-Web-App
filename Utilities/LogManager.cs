@@ -83,32 +83,6 @@ namespace Utilities
         }
         public void Init()
         {
-            //logQueue = new Queue<LogItem>();
-            //Task.Run(() =>
-            //{
-            //    while (true)
-            //    {
-            //        if (logQueue.Count > 0)
-            //        {
-            //            LogItem item = logQueue.Dequeue();
-            //            InsertToLog(item);
-            //            // save item to file takes 11 second
-            //            System.Threading.Thread.Sleep(5000);
-
-            //        }
-
-            //        System.Threading.Thread.Sleep(1000);
-            //    }
-
-            //});
-            //Task.Run(() =>
-            //{
-            //    while (true)
-            //    {
-            //        LogCheckHouseKeeping();
-            //        System.Threading.Thread.Sleep(1000);
-            //    }
-            //});
         }
 
         public void LogEvent(string msg)
@@ -142,48 +116,26 @@ namespace Utilities
         {
             Init();
         }
-        private static string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security=True";
+        private static string connectionString = Enviroment.GetEnviromentVariable("connectionString");
 
         //Queue<LogItem> logQueue;
               
         public void Init()
         {
-            //logQueue = new System.Collections.Generic.Queue<LogItem>();
-            // Task.Run(() =>
-            // {
-            //     while (true)
-            //     {
-            //         if (logQueue.Count > 0)
-            //         {
-            //             LogItem item = logQueue.Dequeue();
-            //              InsertToLog(item);
-            //             // save item to file takes 11 second
-            //             System.Threading.Thread.Sleep(11000);
-
-            //         }
-
-            //         System.Threading.Thread.Sleep(1000);
-            //     }
-
-            // });
-         
         }
         public void LogEvent(string msg)
         {
             LogItem logItem = new LogItem("Event", msg, DateTime.Now, null);
-            //logQueue.Enqueue(logItem);
             LogManager.logQueue.Enqueue(logItem);
         }
 
         public void LogException(string msg, Exception ex)
         {
             LogItem logItem = new LogItem("Exception", msg, DateTime.Now, ex.Message);
-            //logQueue.Enqueue(logItem);
             LogManager.logQueue.Enqueue(logItem);
         }
         public void LogCheckHouseKeeping()
         {
-
         }
         
         public static void InsertToLog(LogItem logItem)
@@ -293,7 +245,7 @@ namespace Utilities
                         if (item != null) {                     
                             InsertToLog(item, type);
                         }
-                        // save item to file takes 11 second
+                        
                         System.Threading.Thread.Sleep(5000);
 
                     }
