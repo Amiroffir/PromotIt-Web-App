@@ -8,7 +8,7 @@ The system's goal is to promote social campaigns. The means to do so involve onb
 <b> This App is made as part of my studies and contains the following languages & technologies: 
   <ol>
     <li> Server - C#, Azure Functions, Twitter API  </li>
-            <li> Client - JavaScript, React JS
+            <li> Client - TypeScript, React JS
                     <li> DB - SQLServer
                        <li> Authentication - Auth0 
       <ol/> 
