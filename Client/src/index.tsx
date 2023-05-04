@@ -6,7 +6,9 @@ import { BrowserRouter } from "react-router-dom";
 import { Auth0Provider } from "@auth0/auth0-react";
 import { Auth0ClientID, Auth0Domain } from "./global";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(
+  document.getElementById("root") as Element | DocumentFragment
+);
 root.render(
   <React.StrictMode>
     <BrowserRouter>
