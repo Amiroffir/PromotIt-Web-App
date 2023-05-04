@@ -15,7 +15,6 @@ export const About = () => {
             campaigns.
           </p>
         </header>
-
         <div className="row about-cols">
           <div className="col-md-4 wow fadeInUp">
             <div className="about-col">
